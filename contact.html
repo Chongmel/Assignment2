@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bunny Art Studio</title>
+<meta name="keywords" content="art, design, handcrafted, handmade, artworks, studio, creative, artistic, bunny art, Toronto, fruit arrangement, painting, decoration">
+<meta name="description" content="Bunny Art Studio offers customized designs for company logo, banner, brochures, flyers, business cards, and other services including mural paintings and art courses such as flower arrangements">   
+    
+
+<!--SITE STYLES-->
+<link rel="stylesheet" href="css/bunnyart-styles.css">
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/9767f489a7.js"></script> 
+
+<!--VIEWPORT-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                
+<!--RESET-->
+
+<!-- jQUERY -->
+
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+
+<!-- jQUERY UI -->
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+          
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+       
+<!--    SLICKNAV-->
+        <!-- SLICKNAV - CSS & JS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.js"></script>
+    
+        <!--SLICKNAV - HOOKUP-->
+        <script>
+        $(function(){
+        $('#menu').slicknav();
+            });
+        </script>
+
+
+<!--STYLES-->>
+<style>
+    .col12 {
+        width:46%;
+        margin:1%;
+        padding:1%;
+    }
+    
+    input, textarea {
+        display:block;
+        width:100%;
+        padding:10px;
+        font-family: Arial;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        font-size:1.2em;
+    }
+    
+</style>
+
+</head>
+
+<body>
+    <main id="container">
+
+<header Class="MyHeader1">
+    <img src="images/Logo.PNG" class="responsive">
+        </header>     
+        
+<!--Nav start here-->        
+<nav Class="nav a">
+   <ul id="menu">
+   <li><a href="index.html">About</a></li> 
+   <li><a href="portfolio.html">Portfolio</a></li>
+   <li><a href="contact.html" class="current">Contact</a></li>
+   </ul>
+</nav> 
+     
+<!--Nav ends here--> 
+
+<body>
+<main id="container">
+<!--1/4 + 1/2 + 1/4-->
+
+<section class="col12">
+     <form action="form.php" method="post" enctype="multipart/form-data" class="responsive">
+         
+         <h1>Contact Us</h1>
+         
+         <label></label>
+         <input name="name" required="required" placeholder="Your Name">
+         
+         <label></label>
+         <input name="email" type="email" required="required" placeholder="Your Email">
+                 
+         <label></label>
+         <textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+         
+        
+        <input id="submit" name="submit" type="submit" value="Submit"> 
+        <input id="cancel" name="cancel" value="Cancel" />
+     </form>
+</section>
+<div class="clear"></div>
+            
+<footer id="mainFooter">
+        <p>Copyright &copy;<em>2019 Bunny Art Studio.</em> All rights reserved.</p>
+</footer>  
+        
+</main>  
+</body>     
+</html>
+    
+    
+    
+    

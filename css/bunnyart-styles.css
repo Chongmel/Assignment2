@@ -1,0 +1,236 @@
+/****************GOOGLE FONTS*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+/******************SLICKNAV*/
+.slicknav_menu {
+    display:none;
+}
+
+@media screen and (max-width: 1200px) {
+    /* #menu is the original menu */
+ #menu {
+        display:none;
+    }
+    
+    .slicknav_menu {
+        display:block;
+    }
+}
+
+
+/*********************GLOBAL*/
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color:#679AB1;
+}
+
+/***********************LAYOUT*/
+
+#container {
+    width: 1000px;
+    margin:0 auto;
+    outline:1px solid #FC9888;
+    background-color:#FFF;
+}
+#mainHeader {
+    height:280px;
+}
+
+
+.Heading {
+    font-size:35px;
+    color:#4A1E12;
+    text-align:center;   
+}
+
+
+.MyHeader1 {
+    margin-bottom:10px; 
+}
+
+.nav ul li {
+    display:inline;
+}
+
+.nav {
+    background-color:#679AB1;
+    padding:10px 0;
+    text-align: center;
+}
+
+.nav a {
+    padding:5px 10px;
+    background-color:#4A1E12;
+    color:white;
+    border:1px solid #E8E895;
+}
+
+#content {    
+    padding:20px;
+}
+
+.image {
+    margin-top:10px;
+    padding-top:30px;
+}
+
+#mainFooter {
+    height:50px;
+    border-top:15px solid #5E0B14;
+    color:black;
+    font-size:15px;
+    overflow:auto;
+    text-align:center;
+}
+
+
+/*****************************ACCORDION*/
+
+.accordion h3 {
+    background-color: #E0A89F;
+}
+
+
+
+/************************COLUMNS*/
+.col13 {width:29.33%;}
+.col23 {width:62.66%;}
+.col33 {width:96%;}
+.col12 {width:46%;
+    height:30%}
+.col14 { width:21%;
+    height:30%;}
+.col34 {width:71%;}
+.col15 {width:16%;}
+.col16 {width:12.66%;}
+.col35 {width:57.6%;}
+
+.col13, .col23, .col33, .col12, .col14, .col34, .col15, .col16 {
+    margin:1%;
+    padding:1%;
+    }
+
+/********************************CONTACT STYLES*/
+label 
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+/* Centres the form within the page */
+form 
+{
+    margin:0 auto;
+    width:459px;
+}
+
+/* Styles the submit button */
+#submit {
+	/* background:url(images/submit.png); */
+	width:127px;
+	height:48px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+}
+
+/* Styles the submit hover */	
+#submit:hover {
+	color:#fff;
+	background-color: #000;
+	opacity:0.9;
+}
+
+/* Styles the cancel button*/	
+#cancel {
+	/* background:url(images/cancel.png); */
+	width:107px;
+	height:28px;
+	text-align: center;
+	/* text-indent:-9999px; */
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+}
+
+/* Styles the cancel hover */
+#cancel:hover {
+	color:#fff;
+	background-color: #000;
+	opacity:0.9;
+}
+
+/****************************REUSABLE CLASSES*/
+.fl {float:left;}
+.fr {float:right;}
+.clear {clear:both;}
+
+.current {
+    background-color:#C6A2B9 !important;
+}
+
+
+/***********************************RESPONSIVE*/
+.responsive {
+    width:100%;
+    height:auto;
+}
+
+
+/***********************MEDIA QUERIES******/
+
+/*TABLET*/
+@media screen and (max-width:768px) {
+	/*LAYOUT*/
+#container {
+	max-width: 768px;
+	width:90%;
+}
+
+/*COLUMNS*/
+.col13 {width: 46%;}
+.col23 {width: 46%;}
+.col33 {width: 46%;}
+.col12 {width: 46%;}
+.col14 {width: 46%;}
+.col15 {width: 46%;}
+.col16 {width: 46%;}
+.col34 {width: 46%;}
+.col35 {width: 46%;}
+}
+
+
+
+/***************MOBILE*/
+
+/*PHONE*/
+@media screen and (max-width:480px) {
+
+    #container {
+        width:90%;
+}
+    
+/*COLUMNS*/
+.col13, .col23, .col33, .col12, .col14, .col34, .col15, .col16 {
+    width:96%;
+    display:block;
+    float:none! important;  
+    }
+    
+.col13 {width: 96%;}
+.col23 {width: 96%;}
+.col33 {width: 96%;}
+.col12 {width: 96%;}
+.col14 {width: 96%;}
+.col15 {width: 96%;}
+.col16 {width: 96%;}
+.col34 {width: 96%;}
+.col35 {width: 96%;}
+.col12nomp {width:98%; margin: 0; padding: 1%; outline:1px dotted #CCC;}
+}
+
